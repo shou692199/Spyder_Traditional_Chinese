@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-26 19:16+-05\n"
+"PO-Revision-Date: 2018-11-30 15:18+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+msgid "Breakpoints"
+msgstr "斷點"
+
+msgid "Clear breakpoints in all files"
+msgstr "清除所有文件的斷點"
+
+msgid "Clear this breakpoint"
+msgstr "清除當前的斷點"
+
+msgid "Condition"
+msgstr "條件"
+
+msgid "Edit this breakpoint"
+msgstr "編輯當前斷點"
+
+msgid "File"
+msgstr "文件"
+
+msgid "Line"
+msgstr "行"
+
+msgid "List breakpoints"
+msgstr "斷點列表"
