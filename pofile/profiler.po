@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-28 02:10+0800\n"
+"PO-Revision-Date: 2018-11-30 15:37+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: 李增海 <860007600@qq.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+msgid "Calls"
+msgstr "Calls"
+
+msgid "Clear comparison"
+msgstr "清除對比"
+
+msgid "Collapse one level up"
+msgstr "往上摺疊一層"
+
+msgid "Diff"
+msgstr "差異"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Error when trying to load profiler results"
+msgstr "嘗試仔入分析器結果時發生狀況"
+
+msgid "Expand one level down"
+msgstr "往下展開一層"
+
+msgid "File:line"
+msgstr "文件:行"
+
+msgid "File:line where function is defined"
+msgstr "文件:函數被定義的行"
+
+msgid "Function or module name"
+msgstr "函數或模組名稱"
+
+msgid "Function/Module"
+msgstr "函數/模組"
+
+msgid "Load data"
+msgstr "載入數據"
+
+msgid "Load profiling data for comparison"
+msgstr "載入用於比較的分析數據"
+
+msgid "Local Time"
+msgstr "局部時間"
+
+msgid "Local time in function (not in sub-functions)"
+msgstr "函數中的局部時間（不在子函數中）"
+
+msgid "Output"
+msgstr "輸出"
+
+msgid "Please install"
+msgstr "請安裝"
+
+msgid "Process failed to start"
+msgstr "進度無法啟動"
+
+msgid "Profile"
+msgstr "概況"
+
+msgid "Profiler"
+msgstr "分析器"
+
+msgid "Profiler output"
+msgstr "分析器輸出"
+
+msgid ""
+"Profiler plugin results (the output of python's profile/cProfile)\n"
+"are stored here:"
+msgstr ""
+"分析器插件結果（Python的 profile/cProfile的輸出）\n"
+"儲存在這裡："
+
+msgid "Profiler result"
+msgstr "分析器結果"
+
+msgid "Profiling, please wait..."
+msgstr "分析中，請等候..."
+
+msgid "Python scripts"
+msgstr "Python腳本"
+
+msgid "Results"
+msgstr "結果"
+
+msgid "Run profiler"
+msgstr "運行分析器"
+
+msgid "Run stopped by user."
+msgstr "用戶停止運行。"
+
+msgid "Save data"
+msgstr "保存數據"
+
+msgid "Save profiler result"
+msgstr "保存分析器結果"
+
+msgid "Save profiling data"
+msgstr "保存分析數據"
+
+msgid "Select Python script"
+msgstr "選擇Python腳本"
+
+msgid "Select script to compare"
+msgstr "選擇腳本用於對比"
+
+msgid "Show program's output"
+msgstr "顯示程式的輸出"
+
+msgid "Sorting data, please wait..."
+msgstr "排序數據，請稍候…"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Stop current profiling"
+msgstr "停止當前分析"
+
+msgid "Time in function (including sub-functions)"
+msgstr "函數中的時間（包括子函數）"
+
+msgid "Total Time"
+msgstr "總共耗時"
+
+msgid "Total number of calls (including recursion)"
+msgstr "調用的總數（包括遞歸）"
+
+msgid "recursion"
+msgstr "遞歸"
+
+msgid "the Python profiler modules"
+msgstr "Python分析器模組"
