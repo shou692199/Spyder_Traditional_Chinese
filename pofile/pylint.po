@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-26 19:16+-05\n"
+"PO-Revision-Date: 2018-11-30 15:47+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+msgid " results"
+msgstr "結果"
+
+msgid "Analysis did not succeed (see output for more details)."
+msgstr "分析未完成（參見輸出以獲得更多細節）。"
+
+msgid "Analyze"
+msgstr "分析"
+
+msgid "Complete output"
+msgstr "完全輸出"
+
+msgid "Convention"
+msgstr "常規"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Global evaluation:"
+msgstr "全局評估："
+
+msgid "History"
+msgstr "歷史"
+
+msgid "History..."
+msgstr "歷史..."
+
+msgid "History: "
+msgstr "歷史："
+
+msgid "Maximum entries"
+msgstr "最大項目"
+
+msgid "Output"
+msgstr "輸出"
+
+msgid "Process failed to start"
+msgstr "進度無法啟動"
+
+msgid "Pylint output"
+msgstr "Pylint輸出"
+
+msgid "Python files"
+msgstr "Python文件"
+
+msgid "Refactor"
+msgstr "重構"
+
+msgid "Results"
+msgstr "結果"
+
+msgid "Results are stored here:"
+msgstr "結果儲存在這裡："
+
+msgid "Results for "
+msgstr "結果為"
+
+msgid "Run analysis"
+msgstr "運行分析"
+
+msgid "Run static code analysis"
+msgstr "運行靜態代碼分析"
+
+msgid "Save file before analyzing it"
+msgstr "保存文件後再分析"
+
+msgid "Select Python file"
+msgstr "選擇Python文件"
+
+msgid "Set history maximum entries"
+msgstr "歷史記錄的最大項目"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Source code has not been rated yet."
+msgstr "源代碼尚未被評估。"
+
+msgid "Static code analysis"
+msgstr "靜態代碼分析"
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Stop current analysis"
+msgstr "停止當前分析"
+
+msgid "The following option will be applied at next startup."
+msgstr "以下選項將在下一次啟動時被使用。"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "previous run:"
+msgstr "此前運行："
