@@ -16,7 +16,7 @@ MODICT = {'spyder':'spyder.mo',
           'spyder_profiler':'profiler.mo',
 		  'spyder_breakpoints':'breakpoints.mo'}
 def checkpath(path):
-    '''檢查路徑，如果路徑不存在則創建。
+    '''檢查路徑，若路徑不存在則創建。
     param path<str>: 路徑位址。
     return <str>:經過檢查的路徑。
     '''
@@ -30,14 +30,14 @@ def checkpath(path):
         if os.path.isfile(path)==False:
             return path
         else:
-            raise ValueError('文件夾創建失敗，存在同名文件。')
+            raise ValueError('資料夾創建失敗，存在同名檔案。')
     else:
         os.makedirs(path)
         return path
 
 
 def search_packages_path(pyflag='1'):
-    '''查找site-packages的路徑位址
+    '''尋找site-packages的路徑
     return <str>: path.
     '''
     sitepath="."
@@ -71,13 +71,10 @@ def shutil_file(sitepath, modulename='spyder'):
     shutil.copyfile(mo_file_name,zh_TW + r'{0}{1}'.format(FLAG, mo_file_name))
     
 def chinesize(sitepath):
-    '''執行漢化'''
-    # base.py add zh_TW
+    '''執行中文化'''
     configpath = sitepath + '{0}spyder{1}config{2}base.py'.format(FLAG,FLAG,FLAG)
     print(configpath)
     newpath = sitepath + '{0}base.py'.format(FLAG)
-    # 根據作業系統（Windows和linux）、python2個大版本分別讀取配置信息
-    # 2020年之後就好了
     if thissys == 'Windows':
         if pyver > 2.7:
             newf = open(newpath, 'w', encoding='utf-8')
