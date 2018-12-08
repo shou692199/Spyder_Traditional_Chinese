@@ -16,9 +16,9 @@ MODICT = {'spyder':'spyder.mo',
           'spyder_profiler':'profiler.mo',
 		  'spyder_breakpoints':'breakpoints.mo'}
 def checkpath(path):
-    '''檢查路徑，若路徑不存在則創建。
-    param path<str>: 路徑位址。
-    return <str>:經過檢查的路徑。
+    '''check for link,if nothing just create it.。
+    param path<str>: link is 。
+    return <str>:checked OK.。
     '''
     try:
         tmp = path.split(FLAG)
@@ -30,14 +30,14 @@ def checkpath(path):
         if os.path.isfile(path)==False:
             return path
         else:
-            raise ValueError('資料夾創建失敗，存在同名檔案。')
+            raise ValueError('folder create failed. files are ready.')
     else:
         os.makedirs(path)
         return path
 
 
 def search_packages_path(pyflag='1'):
-    '''尋找site-packages的路徑
+    '''find for site-packages folder
     return <str>: path.
     '''
     sitepath="."
@@ -71,7 +71,7 @@ def shutil_file(sitepath, modulename='spyder'):
     shutil.copyfile(mo_file_name,zh_TW + r'{0}{1}'.format(FLAG, mo_file_name))
     
 def chinesize(sitepath):
-    '''執行中文化'''
+    '''run pack'''
     configpath = sitepath + '{0}spyder{1}config{2}base.py'.format(FLAG,FLAG,FLAG)
     print(configpath)
     newpath = sitepath + '{0}base.py'.format(FLAG)
@@ -117,7 +117,7 @@ def chinesize(sitepath):
     os.rename(configpath,sitepath + r'{0}spyder{1}config{2}base_bak.py'.format(FLAG, FLAG, FLAG)) 
     # remove new base.py
     shutil.move(newpath,configpath) 
-    mystr = u'中文語言包安裝完畢，重啟後配置語言選項即可。 \n\n 按ENTER鍵開始子模塊漢化'
+    mystr = u'successful! restart and setting \n\n Press ENTER key to finish.'
     pyinput(mystr)
     return
 
@@ -129,45 +129,41 @@ def pyinput(mystr):
     return input_content
 
 if __name__ == '__main__':
-    mystr = u'請輸入數字以區分漢化方式，\n1、手動填入Python模塊包路徑（如：D:\Anaconda3\Lib\dist-packages 或 D:\Anaconda3\Lib\site-packages）。\n2、自動尋找路徑。\n請輸入 1或2:  '
+    mystr = u'Select a selection \n1、Insert Python link by your self（Look like: D:\Anaconda3\Lib\dist-packages or D:\Anaconda3\Lib\site-packages）。\n2、automatic load\nPlease enter 1 or 2:  '
     install_flag = pyinput(mystr)
     if install_flag == '1':
-        mystr = u'Python安裝根路徑（如：D:\python 或 D:\anaconda）：  '
+        mystr = u'Python install link（Look like:D:\python or D:\anaconda）：  '
         sitepath = pyinput(mystr)
     else:
         mystr = '''
         =======================================================
-        由於不同用戶的環境變量過於復雜難以完全兼顧，因此
-        加入部分手動配置項。                    
-        一般而言，只有Windows系统會比較麻煩。另外，如果你 
-        是windows系统，請確保你的python不是安裝在系統盤中 
-        的用戶文件夾下的AppData這一類的路徑裡，為了照顧到
-        大多數人已經將AppData做了過濾。    
-        
-        
-        注意！！！ 如果你在安装anaconda時修改了其文件夾名
-        稱（如:默認為d:\\anaconda3,被修改為d:\\test），請按
-        照選2/3，不要選1             
+        Because the environment variables of different users are too complicated to be completely balanced,
+        Join some manual configuration items.
+        In general, only Windows systems can be cumbersome. Also, if you
+        Is the windows system, please make sure your python is not installed in the system disk
+        In the user folder under the AppData path, in order to take care of
+        Most people have filtered AppData.
+        
+        
+        note! ! ! If you modified the folder name when installing anaconda
+        Said (for example: the default is d:\\anaconda3, modified to d:\\test), please press
+        Choose 2/3, don't choose 1
         ======================================================='''
         
         print(mystr)
         
         #==============================================================================
-        mystr = u'請選擇您的python類別:\n     1.Anaconda \n     2.Python原版\n     3.其他\n您的選擇（數字）：'
+        mystr = u'Please select kind for your python:\n     1.Anaconda \n     2.Original Python \n     3.Other\nYou choose（a number）：'
         pyflag = pyinput(mystr)
    
         sitepath = search_packages_path(pyflag)
     
     print(sitepath)
-    # 創建主翻譯
     creat_language_folder(sitepath, 'spyder')
     shutil_file(sitepath, 'spyder')
     chinesize(sitepath)
-    
-    # 創建子翻譯
     for m in MODICT.keys():
         if m =='spyder':
             continue
         creat_language_folder(sitepath, m)
         shutil_file(sitepath, m)
-
