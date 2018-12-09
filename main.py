@@ -16,9 +16,9 @@ MODICT = {'spyder':'spyder.mo',
           'spyder_profiler':'profiler.mo',
 		  'spyder_breakpoints':'breakpoints.mo'}
 def checkpath(path):
-    '''check for link,if nothing just create it.。
-    param path<str>: link is 。
-    return <str>:checked OK.。
+    '''check for link,if nothing just create it.
+    param path<str>: link is 
+    return <str>:checked OK.
     '''
     try:
         tmp = path.split(FLAG)
@@ -30,7 +30,7 @@ def checkpath(path):
         if os.path.isfile(path)==False:
             return path
         else:
-            raise ValueError('folder create failed. files are ready.')
+            raise ValueError('Could not folder create. files are ready.')
     else:
         os.makedirs(path)
         return path
