@@ -17,8 +17,8 @@ MODICT = {'spyder':'spyder.mo',
 		  'spyder_breakpoints':'breakpoints.mo'}
 def checkpath(path):
     '''check for link,if nothing just create it.
-    param path<str>: link is 
-    return <str>:checked OK.
+    param path<str>: link is...
+    return <str>:done.
     '''
     try:
         tmp = path.split(FLAG)
@@ -30,7 +30,7 @@ def checkpath(path):
         if os.path.isfile(path)==False:
             return path
         else:
-            raise ValueError('Could not folder create. files are ready.')
+            raise ValueError('Could not create the folder. files are ready.')
     else:
         os.makedirs(path)
         return path
@@ -129,7 +129,7 @@ def pyinput(mystr):
     return input_content
 
 if __name__ == '__main__':
-    mystr = u'Select a selection \n1、Insert Python link by your self（Look like: D:\Anaconda3\Lib\dist-packages or D:\Anaconda3\Lib\site-packages）。\n2、automatic load\nPlease enter 1 or 2:  '
+    mystr = u'This is the 繁體中文 tranlate pack.\nSelect a selection \n1、Insert Python link by your self（Look like: D:\Anaconda3\Lib\dist-packages or D:\Anaconda3\Lib\site-packages）。\n2、automatic load\nPlease enter 1 or 2:  '
     install_flag = pyinput(mystr)
     if install_flag == '1':
         mystr = u'Python install link（Look like:D:\python or D:\anaconda）：  '
