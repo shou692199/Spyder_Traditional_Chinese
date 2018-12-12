@@ -1,8 +1,8 @@
 ﻿# -*- coding: utf-8 -*-
 """
-Created on Fri Mar 10 23:07:29 2017
+@contect:shou692199@gmail.com
 
-@author: lizenghai
+@author: 蕭澧邦
 """
 
 import os,shutil,sys
@@ -30,7 +30,7 @@ def checkpath(path):
         if os.path.isfile(path)==False:
             return path
         else:
-            raise ValueError('Could not create the folder. files are ready.')
+            raise ValueError('Could not create the folder. files existed.')
     else:
         os.makedirs(path)
         return path
