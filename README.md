@@ -5,7 +5,7 @@ Step 1.設定環境變數(控制台–>系統及安全性–>系統–>進階系
 ![screenshot](./pic/step01.PNG)
 Step 2.搜尋程式與功能 or 搜尋 Windows –> 輸入cmd並按滑鼠右鍵選擇(以系統管理員的身分執行)               
        根據Win版本不同而不同!        
-![screenshot](./pic/step02.PNG)
+![screenshot](./pic/step02.png)
 Step 3.下載本zip檔要先解壓縮 建議解壓縮到C:槽      
        指令為:          
        cd C:\Spyder_Traditional_Chinese-master\           
