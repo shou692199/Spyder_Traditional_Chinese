@@ -1,8 +1,10 @@
 翻譯已完成大部分 
 將會持續更新(完成後此行將會移除 並可供下載執行甚至是修改)
+![screenshot](./pic/beforestart-1.PNG)
 在開始之前: Download Anaconda now!             
 https://www.anaconda.com/download/        
 Download 3.7 version                      
+![screenshot](./pic/beforestart-2.PNG)
 Step 1.設定環境變數(控制台–>系統及安全性–>系統–>進階系統設定–>環境變數) 新增PATH且值為Python.exe的路徑如C:\ProgramData\Anaconda3                        如有其他值已存在，請先加上;再輸入值!                
 ![screenshot](./pic/step01.PNG)
 Step 2.搜尋程式與功能 or 搜尋 Windows –> 輸入cmd並按滑鼠右鍵選擇(以系統管理員的身分執行)               
