@@ -1,5 +1,3 @@
-翻譯已完成大部分 
-將會持續更新(完成後此行將會移除 並可供下載執行甚至是修改)
 ![screenshot](./pic/beforestart-1.PNG)
 在開始之前: Download Anaconda now!             
 https://www.anaconda.com/download/        
