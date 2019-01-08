@@ -1,4 +1,5 @@
-![screenshot](./pic/beforestart-1.PNG)
+![screenshot](./pic/beforestart-1.PNG)                  
+小叮嚀: 以下步驟僅供參考，切勿點擊圖片(不會有任何反應...)          
 在開始之前: Download Anaconda now!             
 https://www.anaconda.com/download/        
 Download 3.7 version                      
