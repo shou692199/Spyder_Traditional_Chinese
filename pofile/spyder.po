@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-26 19:16+-05\n"
-"PO-Revision-Date: 2018-12-08 15:21+0800\n"
+"PO-Revision-Date: 2019-01-12 16:49+0800\n"
 "Last-Translator: 蕭澧邦 <shou692199@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -179,7 +179,7 @@ msgstr ""
 "嗎?"
 
 msgid "<b>-u</b> is added to the other options you set here"
-msgstr "<b>-u</b>已經添加到你設置的其他選項中"
+msgstr "<b>-u</b>已經新增到你設置的其他選項中"
 
 msgid ""
 "<b>Spyder %s is available!</b> <br><br>Please use your package manager to "
@@ -230,7 +230,7 @@ msgid "<b>Unable to find external program.</b><br><br>%s"
 msgstr "<b>無法找到外部程序。 </b><br><br>%s"
 
 msgid "<b>Unable to load '%s'</b><br><br>Error message:<br>%s"
-msgstr "<b>無法加載 '%s'</b><br><br>錯誤訊息：<br>%s"
+msgstr "<b>無法載入 '%s'</b><br><br>錯誤訊息：<br>%s"
 
 msgid "<b>Unable to move <i>%s</i></b><br><br>Error message:<br>%s"
 msgstr "<b>無法移動 <i>%s</i></b><br><br>錯誤訊息:<br>%s"
@@ -263,7 +263,7 @@ msgid ""
 "<b>Unsupported file extension '%s'</b><br><br>Would you like to import it "
 "anyway (by selecting a known file format)?"
 msgstr ""
-"<b>不支持的檔案擴展名'%s' </b><br><br>您是否想導入它（通過選擇已知的檔案格"
+"<b>不支持的檔案擴展名'%s' </b><br><br>您是否想匯入它（通過選擇已知的檔案格"
 "式）？"
 
 msgid ""
@@ -272,7 +272,7 @@ msgid ""
 "available."
 msgstr ""
 "<b>警告：</b> <br> Python套件<i>rope</i>在這台電腦上沒有安裝：調用提示、代碼"
-"完成和轉到定義功能將不可用。"
+"完成和轉接定義功能將不可用。"
 
 msgid ""
 "<b>You have missing dependencies!</b><br><br><tt>%s</tt><br><br><b>Please "
@@ -336,7 +336,7 @@ msgid ""
 "<b>analysis:ignore</b> in a comment to ignore code analysis warnings.</p>"
 msgstr ""
 "<p>如果啟用，Python源碼將使用pyflakes進行分析，行中包含錯誤或警告時將被高"
-"亮。 </p><u>提示</u>:在註釋中添加<b>analysis:ignore</b>來隱藏分析警告"
+"亮。 </p><u>提示</u>:在註釋中新增<b>analysis:ignore</b>來隱藏分析警告"
 
 msgid "<u>Warning</u>: changes are applied separately"
 msgstr "<u>警告</u>: 更改已使用。"
@@ -358,13 +358,13 @@ msgid "Activate support"
 msgstr "啟用的支持"
 
 msgid "Add &block comment"
-msgstr "添加註釋(&B)"
+msgstr "新增註釋(&B)"
 
 msgid "Add block comment around current line or selection"
-msgstr "在當前行或所選行添加註釋"
+msgstr "在當前行或所選行新增註釋"
 
 msgid "Add path"
-msgstr "添加路徑"
+msgstr "新增路徑"
 
 msgid "Additional features"
 msgstr "附加功能"
@@ -376,10 +376,10 @@ msgid "Address:"
 msgstr "地址："
 
 msgid "Advanced Settings"
-msgstr "高級設置"
+msgstr "進階設置"
 
 msgid "Advanced settings"
-msgstr "高級設置"
+msgstr "進階設置"
 
 msgid ""
 "All changes to <b>%s</b> will be lost.<br>Do you want to revert file from "
@@ -475,7 +475,7 @@ msgid "Automatic connections"
 msgstr "自動連接"
 
 msgid "Automatic import"
-msgstr "自動導入"
+msgstr "自動匯入"
 
 msgid "Automatic indentation after 'else', 'elif', etc."
 msgstr "在輸入else、elif後自動縮進."
@@ -490,7 +490,7 @@ msgid "Automatic insertion of parentheses, braces and brackets"
 msgstr "自動插入小括號、中括號、大括號"
 
 msgid "Automatically load Pylab and NumPy modules"
-msgstr "自動加載PyLab和NumPy套件"
+msgstr "自動載入PyLab和NumPy套件"
 
 msgid "Automatically remove trailing spaces when saving files"
 msgstr "保存檔案時自動移除尾隨空格"
@@ -1029,7 +1029,7 @@ msgid "Editor"
 msgstr "編輯器"
 
 msgid "Editor's code completion, go-to-definition and help"
-msgstr "編輯器的代碼完成，轉到定義和Helper"
+msgstr "編輯器的代碼完成，轉接定義和Helper"
 
 msgid "Empty clipboard"
 msgstr "空剪切板"
@@ -1301,34 +1301,34 @@ msgid "General settings"
 msgstr "一般設置"
 
 msgid "Go to cursor position"
-msgstr "轉到光標位置"
+msgstr "轉接光標位置"
 
 msgid "Go to definition"
-msgstr "轉到定義"
+msgstr "轉接定義"
 
 msgid "Go to last edit location"
-msgstr "轉到最後一次的編輯位置"
+msgstr "轉接最後一次的編輯位置"
 
 msgid "Go to line..."
-msgstr "轉到行…"
+msgstr "轉接行…"
 
 msgid "Go to line:"
-msgstr "轉到行："
+msgstr "轉接行："
 
 msgid "Go to next code analysis warning/error"
-msgstr "轉到下一個代碼分析的警告/錯誤"
+msgstr "轉接下一個代碼分析的警告/錯誤"
 
 msgid "Go to next cursor position"
-msgstr "轉到下一個光標位置"
+msgstr "轉接下一個光標位置"
 
 msgid "Go to previous code analysis warning/error"
-msgstr "轉到上一個代碼分析的警告/錯誤"
+msgstr "轉接上一個代碼分析的警告/錯誤"
 
 msgid "Go to previous cursor position"
-msgstr "轉到上一個光標位置"
+msgstr "轉接上一個光標位置"
 
 msgid "Go to step: "
-msgstr "跳轉到step:"
+msgstr "轉接step:"
 
 msgid "Graphical"
 msgstr "圖形"
@@ -1370,7 +1370,7 @@ msgstr ""
 "Spyder提供的配色方案或使用下面的選項創建你個人的配色方案<br>"
 
 msgid "Hide advanced options"
-msgstr "隱藏高級選項"
+msgstr "隱藏進階選項"
 
 msgid "Hide all future errors during this session"
 msgstr "隱藏本次會話中的所有特性錯誤"
@@ -1452,22 +1452,22 @@ msgstr ""
 "如果啟用此選項，單擊對象名稱（左擊+ctrl鍵）將進入這個對象定義（如果已解決）。"
 
 msgid "Import"
-msgstr "導入"
+msgstr "匯入"
 
 msgid "Import as"
-msgstr "導入為"
+msgstr "匯入為"
 
 msgid "Import data"
-msgstr "導入數據"
+msgstr "匯入數據"
 
 msgid "Import error"
-msgstr "導入錯誤"
+msgstr "匯入錯誤"
 
 msgid "Import from clipboard"
-msgstr "從剪貼簿導入"
+msgstr "從剪貼簿匯入"
 
 msgid "Import wizard"
-msgstr "導入嚮導"
+msgstr "匯入嚮導"
 
 msgid "Indent"
 msgstr "縮進"
@@ -1925,7 +1925,7 @@ msgid "Normal text:"
 msgstr "普通文本："
 
 msgid "Nothing to be imported from clipboard."
-msgstr "沒有從剪貼簿導入任何內容"
+msgstr "沒有從剪貼簿匯入任何內容"
 
 msgid "NumPy array"
 msgstr "NumPy數組"
@@ -2096,27 +2096,27 @@ msgstr "純文本字體"
 
 msgid ""
 "Please consider installing Sphinx to get documentation rendered in rich text."
-msgstr "请考虑安装Sphinx 来获取以富文本呈现的文档。"
+msgstr "請考慮安裝Sphinx 來獲取以副文本呈現的文檔。"
 
 msgid ""
 "Please enter a detailed step-by-step description (in English) of what led up "
 "to the problem below. Issue reports without a clear way to reproduce them "
 "will be closed."
-msgstr "请输入下面的问题的详细描述（英文）。没有明确的方式发布报告将被关闭。"
+msgstr "請輸入下面的問題的詳細描述（英文）。沒有明確的方式發布報告將被關閉。"
 
 msgid "Please fill the following information"
-msgstr "请填写以下信息"
+msgstr "請填寫以下信息"
 
 msgid "Please install <b>matplotlib</b> or <b>guiqwt</b>."
-msgstr "请安装 <b>matplotlib</b> 或 <b>guiqwt</b>."
+msgstr "請安裝 <b>matplotlib</b> 或 <b>guiqwt</b>."
 
 msgid "Please introduce a different shortcut"
-msgstr "请引用一个不同的快捷方式"
+msgstr "請引用一個不同的快捷方式"
 
 msgid ""
 "Please note that these changes will be applied only to new Python/IPython "
 "consoles"
-msgstr "请注意，这些变化将只适用于新的Python / IPython控制台"
+msgstr "請注意，這些變化將只適用於新的Python / IPython控制台"
 
 msgid "Please note that these changes will be applied only to new consoles"
 msgstr "请注意，这些更改将只适用于新的控制台"
@@ -3357,7 +3357,7 @@ msgstr "不匹配的父类:"
 msgid ""
 "Update LANGUAGE_CODES (inside config/base.py) if a new translation has been "
 "added to Spyder"
-msgstr "如果添加新的语言包到Spyder，请更新语言代码（包含在 config/base.py)"
+msgstr "如果新增新的语言包到Spyder，请更新语言代码（包含在 config/base.py)"
 
 msgid "Update module names list"
 msgstr "更新套件的名称列表"
@@ -3620,7 +3620,7 @@ msgid "of"
 msgstr "属于"
 
 msgid "other"
-msgstr "<b>-u</b>已经添加到你设置的其他选项中"
+msgstr "<b>-u</b>已经新增到你设置的其他选项中"
 
 msgid "permission denied errors were encountered"
 msgstr "遇到权限拒绝错误"
