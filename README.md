@@ -3,6 +3,7 @@
 在開始之前: 先下載 Anaconda 吧!             
 https://www.anaconda.com/download/        
 推薦下載 Python 3.x.x 版，安裝時請點擊 Next> 最後請務必安裝VS CODE                      
+詳細的安裝過程，我推薦https://codingonmac.blogspot.com/2017/08/windows-10-64bitsspyder-anaconda.html                      
 ![screenshot](./pic/beforestart-2.PNG)
 Step 1.設定環境變數(控制台–>系統及安全性–>系統–>進階系統設定–>環境變數) 新增PATH且值為Python.exe的路徑如C:\ProgramData\Anaconda3                        如有其他值已存在，請先加上';'再輸入其值!                
 ![screenshot](./pic/step01.PNG)
