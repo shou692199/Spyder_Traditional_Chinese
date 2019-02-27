@@ -153,7 +153,7 @@ if __name__ == '__main__':
         print(mystr)
         
         #==============================================================================
-        mystr = u'What kind of your python? \n     1.Anaconda \n     2.Original \n     3.Other\nYou choosed（Number）：'
+        mystr = u'What kind of your python? \n     1.Anaconda \n     2.Original \n     3.Other\nYou choosed（Number：'
         pyflag = pyinput(mystr)
    
         sitepath = search_packages_path(pyflag)
