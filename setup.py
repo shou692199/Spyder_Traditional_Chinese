@@ -119,6 +119,7 @@ def chinesize(sitepath):
     shutil.move(newpath,configpath) 
     mystr = u'Successful! Restart and Setting. \n\n Press ENTER and wait Spyder IDE start to \n set link: Tools–>Perferences–>Advanced Setting–>Language–>繁體中文.'
     pyinput(mystr)
+    os.system('C:\ProgramData\Anaconda3\Scripts\spyder.exe')
     return
 
 def pyinput(mystr):
