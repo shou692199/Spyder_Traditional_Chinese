@@ -16,9 +16,9 @@ MODICT = {'spyder':'spyder.mo',
           'spyder_profiler':'profiler.mo',
 		  'spyder_breakpoints':'breakpoints.mo'}
 def checkpath(path):
-    '''check for link,if nothing just create it.
-    param path<str>: link is...
-    return <str>:done.
+    '''Checking...
+    param path<str>: link:
+    return <str>:Done!
     '''
     try:
         tmp = path.split(FLAG)
@@ -30,14 +30,14 @@ def checkpath(path):
         if os.path.isfile(path)==False:
             return path
         else:
-            raise ValueError('Could not create the folder. files existed.')
+            raise ValueError('Failed. files existed.')
     else:
         os.makedirs(path)
         return path
 
 
 def search_packages_path(pyflag='1'):
-    '''find for site-packages folder
+    '''Finding site-packages...
     return <str>: path.
     '''
     sitepath="."
@@ -117,7 +117,7 @@ def chinesize(sitepath):
     os.rename(configpath,sitepath + r'{0}spyder{1}config{2}base_bak.py'.format(FLAG, FLAG, FLAG)) 
     # remove new base.py
     shutil.move(newpath,configpath) 
-    mystr = u'successful! restart and setting \n\n Press ENTER key to finish.'
+    mystr = u'Successful! Restart and Setting. \n\n Press ENTER to finish.'
     pyinput(mystr)
     return
 
@@ -129,10 +129,10 @@ def pyinput(mystr):
     return input_content
 
 if __name__ == '__main__':
-    mystr = u'This is the 繁體中文 tranlate pack.\nSelect a selection \n1、Insert Python link by your self（Look like: D:\Anaconda3\Lib\dist-packages or D:\Anaconda3\Lib\site-packages）。\n2、automatic load\nPlease enter 1 or 2:  '
+    mystr = u'This is the CHTlang tranlate pack.\nSelect a selection \n1、Insert Python link（for example: D:\Anaconda3\Lib\dist-packages or D:\Anaconda3\Lib\site-packages）。\n2、automatic load\nPlease enter 1 or 2:  '
     install_flag = pyinput(mystr)
     if install_flag == '1':
-        mystr = u'Python install link（Look like:D:\python or D:\anaconda）：  '
+        mystr = u'Python was install at（for example:D:\python or D:\anaconda）：  '
         sitepath = pyinput(mystr)
     else:
         mystr = '''
@@ -145,15 +145,14 @@ if __name__ == '__main__':
         Most people have filtered AppData.
         
         
-        note! ! ! If you modified the folder name when installing anaconda
-        Said (for example: the default is d:\\anaconda3, modified to d:\\test), please press
-        Choose 2/3, don't choose 1
+        note! ! ! If your Anaconda not install in defualt link, just choose 2 or 3 not 1.
+	When installation exit Spyder IDE will be launch.
         ======================================================='''
         
         print(mystr)
         
         #==============================================================================
-        mystr = u'Please select kind for your python:\n     1.Anaconda \n     2.Original Python \n     3.Other\nYou choose（a number）：'
+        mystr = u'What kind of your python? \n     1.Anaconda \n     2.Original \n     3.Other\nYou choosed（Number）：'
         pyflag = pyinput(mystr)
    
         sitepath = search_packages_path(pyflag)
