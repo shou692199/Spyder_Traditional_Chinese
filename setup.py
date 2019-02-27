@@ -117,7 +117,7 @@ def chinesize(sitepath):
     os.rename(configpath,sitepath + r'{0}spyder{1}config{2}base_bak.py'.format(FLAG, FLAG, FLAG)) 
     # remove new base.py
     shutil.move(newpath,configpath) 
-    mystr = u'Successful! Restart and Setting. \n\n Press ENTER to finish.'
+    mystr = u'Successful! Restart and Setting. \n\n Press ENTER and wait Spyder IDE start to \n set link: Tools–>Perferences–>Advanced Setting–>Language–>繁體中文.'
     pyinput(mystr)
     return
 
