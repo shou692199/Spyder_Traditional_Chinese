@@ -5,7 +5,7 @@
 @author: 蕭澧邦
 """
 
-import os,shutil,sys
+import os,shutil,sys,subprocess
 import platform
 
 thissys = platform.system()
@@ -119,7 +119,7 @@ def chinesize(sitepath):
     shutil.move(newpath,configpath) 
     mystr = u'Successful! Restart and Setting. \n\n Press ENTER and wait Spyder IDE start to \n set link: Tools–>Perferences–>Advanced Setting–>Language–>繁體中文.'
     pyinput(mystr)
-    os.system('C:\ProgramData\Anaconda3\Scripts\spyder.exe')
+    process = subprocess.Popen("C:\ProgramData\Anaconda3\Scripts\spyder.exe", stderr=subprocess.PIPE)
     return
 
 def pyinput(mystr):
