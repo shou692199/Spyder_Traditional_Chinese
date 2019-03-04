@@ -120,6 +120,11 @@ def chinesize(sitepath):
     mystr = u'Successful! Restart and Setting. \n\n Press ENTER and wait Spyder IDE start to \n set link: Tools–>Perferences–>Advanced Setting–>Language–>繁體中文.'
     pyinput(mystr)
     process = subprocess.Popen("C:\ProgramData\Anaconda3\Scripts\spyder.exe", stderr=subprocess.PIPE)
+    if process.stderr:#把 exe 執行出來的結果讀回來
+        print("**************************************************************")
+        print process.stderr.readlines()
+        print("**************************************************************")
+    print("End!")
     return
 
 def pyinput(mystr):
