@@ -13,7 +13,11 @@ Step 2.搜尋程式與功能 or 搜尋 Windows –> 輸入cmd並按滑鼠右鍵�
 Step 3.下載本zip檔要先解壓縮 建議解壓縮到C:槽      
 ![screenshot](./pic/step03-1.png)
        以系統管理員的身分執行main.exe                              
-![screenshot](./pic/step03-2.PNG)
+       2019補充更新
+              安全性防護之處理措施:                               
+![screenshot](./pic/p.s.01.PNG)
+![screenshot](./pic/p.s.02.PNG)
+![screenshot](./pic/p.s.03.PNG)
 ![screenshot](./pic/step03-3.PNG)
 ![screenshot](./pic/step03-4.PNG)
 Step 4.根據畫面提示輸入直到要求按下ENTER時就好了!           
