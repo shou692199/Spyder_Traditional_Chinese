@@ -2,7 +2,7 @@
 """
 @contect:shou692199@gmail.com
 
-@author: øΩøC®π
+@author: Ëï≠ÊæßÈÇ¶
 """
 
 import os,shutil,sys,subprocess
@@ -92,7 +92,7 @@ def chinesize(sitepath):
             newf.writelines(line)
             if "LANGUAGE_CODES = {'en': u'English'," in line:
                 islanguage = 1
-                mystr = "                  'zh_TW': u'¡c≈È§§§Â',\n" if pyver >2.7 else u"                  'zh_TW': u'¡c≈È§§§Â',\n"
+                mystr = "                  'zh_TW': u'ÁπÅÈ´î‰∏≠Êñá',\n" if pyver >2.7 else u"                  'zh_TW': u'ÁπÅÈ´î‰∏≠Êñá',\n"
                 
                 newf.writelines(mystr)
     
@@ -107,7 +107,7 @@ def chinesize(sitepath):
             if "LANGUAGE_CODES = {'en': u'English'," in line:
                 #print(line)
                 islanguage = 1
-                mystr = "                  'zh_TW': u'¡c≈È§§§Â',\n"
+                mystr = "                  'zh_TW': u'ÁπÅÈ´î‰∏≠Êñá',\n"
                 newf.writelines(mystr)
     newf.close()
 
@@ -117,13 +117,9 @@ def chinesize(sitepath):
     os.rename(configpath,sitepath + r'{0}spyder{1}config{2}base_bak.py'.format(FLAG, FLAG, FLAG)) 
     # remove new base.py
     shutil.move(newpath,configpath) 
-    mystr = u'Successful! Restart and Setting. \n\n Press ENTER and wait Spyder IDE start to \n set link: Tools°V>Perferences°V>Advanced Setting°V>Language°V>¡c≈È§§§Â.'
+    mystr = u'Successful! Restart and Setting. \n\n Press ENTER and wait Spyder IDE start to \n set link: Tools‚Äì>Perferences‚Äì>Advanced Setting‚Äì>Language‚Äì>ÁπÅÈ´î‰∏≠Êñá.'
     pyinput(mystr)
     process = subprocess.Popen("C:\ProgramData\Anaconda3\Scripts\spyder.exe", stderr=subprocess.PIPE)
-    if process.stderr:#ß‚ exe ∞ı¶Ê•X®”™∫µ≤™G≈™¶^®”
-        print("**************************************************************")
-        print process.stderr.readlines()
-        print("**************************************************************")
     print("End!")
     return
 
@@ -135,10 +131,10 @@ def pyinput(mystr):
     return input_content
 
 if __name__ == '__main__':
-    mystr = u'This is the CHTlang tranlate pack.\nSelect a selection \n1°BInsert Python link°]for example: D:\Anaconda3\Lib\dist-packages or D:\Anaconda3\Lib\site-packages°^°C\n2°Bautomatic load\nPlease enter 1 or 2:  '
+    mystr = u'This is the CHTlang tranlate pack.\nSelect a selection \n1„ÄÅInsert Python linkÔºàfor example: D:\Anaconda3\Lib\dist-packages or D:\Anaconda3\Lib\site-packagesÔºâ„ÄÇ\n2„ÄÅautomatic load\nPlease enter 1 or 2:  '
     install_flag = pyinput(mystr)
     if install_flag == '1':
-        mystr = u'Python was install at°]for example:D:\python or D:\anaconda°^°G  '
+        mystr = u'Python was install atÔºàfor example:D:\python or D:\anacondaÔºâÔºö  '
         sitepath = pyinput(mystr)
     else:
         mystr = '''
@@ -158,7 +154,7 @@ if __name__ == '__main__':
         print(mystr)
         
         #==============================================================================
-        mystr = u'What kind of your python? \n     1.Anaconda \n     2.Original \n     3.Other\nYou choosed°]Number°G'
+        mystr = u'What kind of your python? \n     1.Anaconda \n     2.Original \n     3.Other\nYou choosedÔºàNumberÔºö'
         pyflag = pyinput(mystr)
    
         sitepath = search_packages_path(pyflag)
