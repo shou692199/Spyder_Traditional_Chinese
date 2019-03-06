@@ -23,5 +23,5 @@ Step 3.下載本zip檔要先解壓縮 建議解壓縮到C:槽
 Step 4.根據畫面提示輸入直到要求按下ENTER時就好了!           
        最後啟動Spyder–>Tools–>Perferences–>Advanced Setting–>Language–>繁體中文          
 也可以為這個世界盡一份心力好比翻譯成其他語言等                   
-特別感謝Poedit & https://txtconv.arpuli.com/                                  
+特別感謝https://poedit.net & https://txtconv.arpuli.com/                                  
 尊重隱私~請勿任意轉載謝謝配合!!
