@@ -5,6 +5,7 @@ Spyder版本
 >1.要是3.x版
 >
 >2.安裝選擇for everyone
+
 *在開始之前: 先下載 Anaconda 吧!*             
 https://www.anaconda.com/download/        
 推薦下載 Python 3.x.x 版，安裝時請點擊 Next> 最後請務必安裝VS CODE                      
