@@ -1,7 +1,7 @@
 ![screenshot](./pic/beforestart-1.PNG)                  
 小叮嚀: 以下步驟僅供參考
-*安裝概要*
-Spyder版本
+*安裝概要 Windows OS*
+### Spyder安裝要素
 >1.要是3.x版
 >
 >2.安裝選擇for everyone
