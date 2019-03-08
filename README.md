@@ -1,6 +1,11 @@
 ![screenshot](./pic/beforestart-1.PNG)                  
-小叮嚀: 以下步驟僅供參考，切勿點擊圖片(不會有任何反應...)          
-在開始之前: 先下載 Anaconda 吧!             
+小叮嚀: 以下步驟僅供參考
+*安裝概要*
+Spyder版本
+>1.要是3.x版
+>
+>2.安裝選擇for everyone
+*在開始之前: 先下載 Anaconda 吧!*             
 https://www.anaconda.com/download/        
 推薦下載 Python 3.x.x 版，安裝時請點擊 Next> 最後請務必安裝VS CODE                      
 安裝過程請參考https://codingonmac.blogspot.com/2017/08/windows-10-64bitsspyder-anaconda.html                      
@@ -13,8 +18,8 @@ Step 2.搜尋程式與功能 or 搜尋 Windows –> 輸入cmd並按滑鼠右鍵�
 Step 3.下載本zip檔要先解壓縮 建議解壓縮到C:槽      
 ![screenshot](./pic/step03-1.png)
        以系統管理員的身分執行main.exe                              
-       2019補充更新
-              安全性防護之處理措施:                               
+       *2019補充更新
+              安全性防護之處理措施:*                               
 ![screenshot](./pic/p.s.01.PNG)
 ![screenshot](./pic/p.s.02.PNG)
 ![screenshot](./pic/p.s.03.PNG)
