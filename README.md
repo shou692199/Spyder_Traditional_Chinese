@@ -38,6 +38,7 @@ Step 2.下載本zip檔要先解壓縮 建議解壓縮到C:槽
 >
 >python setup.py
 
+![screenshot](./pic/step03-4.PNG)
 Step 4.根據畫面提示輸入直到要求按下ENTER時就好了!           
 最後啟動Spyder–>Tools–>Perferences–>Advanced Setting–>Language–>繁體中文                         
        
