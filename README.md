@@ -13,12 +13,9 @@ https://www.anaconda.com/download/
 ![screenshot](./pic/beforestart-2.PNG)
 Step 1.設定環境變數(控制台–>系統及安全性–>系統–>進階系統設定–>環境變數) 新增PATH且值為Python.exe的路徑如C:\ProgramData\Anaconda3                        如有其他值已存在，請先加上';'再輸入其值!                
 ![screenshot](./pic/step01.PNG)
-Step 2.搜尋程式與功能 or 搜尋 Windows –> 輸入cmd並按滑鼠右鍵選擇(以系統管理員的身分執行)               
-       根據Win版本不同而不同!        
-![screenshot](./pic/step02.png)
-Step 3.下載本zip檔要先解壓縮 建議解壓縮到C:槽      
+Step 2.下載本zip檔要先解壓縮 建議解壓縮到C:槽      
 ![screenshot](./pic/step03-1.png)
-       以系統管理員的身分執行main.exe                              
+       2-1以系統管理員的身分執行main.exe                              
        *2019補充更新
               安全性防護之處理措施:*                               
 ![screenshot](./pic/p.s.01.PNG)
@@ -26,6 +23,9 @@ Step 3.下載本zip檔要先解壓縮 建議解壓縮到C:槽
 ![screenshot](./pic/p.s.03.PNG)
 ![screenshot](./pic/step03-3.PNG)
 ![screenshot](./pic/step03-4.PNG)
+       2-2.搜尋程式與功能 or 搜尋 Windows –> 輸入cmd並按滑鼠右鍵選擇(以系統管理員的身分執行)               
+           根據Win版本不同而不同!        
+![screenshot](./pic/step02.png)
 Step 4.根據畫面提示輸入直到要求按下ENTER時就好了!           
        最後啟動Spyder–>Tools–>Perferences–>Advanced Setting–>Language–>繁體中文                         
 特別感謝https://poedit.net & https://txtconv.arpuli.com/                                  
