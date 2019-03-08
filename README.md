@@ -21,14 +21,14 @@ Step 2.下載本zip檔要先解壓縮 建議解壓縮到C:槽
 *2019補充更新安全性防護之處理措施:*                               
 事發:                                       
 ![screenshot](./pic/p.s.01.PNG)
-按下 其他資訊                            
+按下 其他資訊                                                                   
 ![screenshot](./pic/p.s.02.PNG)
-點擊 仍要執行
+點擊 仍要執行                                                             
 ![screenshot](./pic/p.s.03.PNG)
 ![screenshot](./pic/step03-3.PNG)
 ![screenshot](./pic/step03-4.PNG)
 2-2.執行cmd並按滑鼠右鍵選擇(以系統管理員的身分執行)               
-![screenshot](./pic/step02.png)
+![screenshot](./pic/step02.png)                                                     
 
 >於解壓縮資料夾選擇檔案->開啟 Windows PowerShell->以系統管理員的身分開啟 Windows PowerShell
 >
