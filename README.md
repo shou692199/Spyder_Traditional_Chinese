@@ -21,9 +21,11 @@ Step 2.下載本zip檔要先解壓縮 建議解壓縮到C:槽
 *2019補充更新安全性防護之處理措施:*                               
 事發:                                       
 ![screenshot](./pic/p.s.01.PNG)
+
 按下 其他資訊                                                                    
 
 ![screenshot](./pic/p.s.02.PNG)
+
 點擊 仍要執行                                                             
 
 ![screenshot](./pic/p.s.03.PNG)
