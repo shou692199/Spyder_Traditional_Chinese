@@ -42,6 +42,7 @@ int main()
    	cout<<"Done, for install ";
    	system("pause");
    	system("python setup.py");
-   	system("C:\ProgramData\Anaconda3\Scripts\spyder.exe");
+   	system("pythonw C:\ProgramData\Anaconda3\Scripts\spyder-script.py");
+   	system("pause");
    	return 0;
 }
